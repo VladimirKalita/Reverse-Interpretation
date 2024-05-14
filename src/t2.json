@@ -1,0 +1,123 @@
+{
+    "_type": "Module",
+    "body": [
+        {
+            "_type": "If",
+            "body": [
+                {
+                    "_type": "Assign",
+                    "col_offset": 4,
+                    "end_col_offset": 7,
+                    "end_lineno": 2,
+                    "lineno": 2,
+                    "targets": [
+                        {
+                            "_type": "Name",
+                            "col_offset": 4,
+                            "ctx": {
+                                "_type": "Store"
+                            },
+                            "end_col_offset": 5,
+                            "end_lineno": 2,
+                            "id": "a",
+                            "lineno": 2
+                        }
+                    ],
+                    "type_comment": null,
+                    "value": {
+                        "_type": "Name",
+                        "col_offset": 6,
+                        "ctx": {
+                            "_type": "Load"
+                        },
+                        "end_col_offset": 7,
+                        "end_lineno": 2,
+                        "id": "m",
+                        "lineno": 2
+                    }
+                },
+                {
+                    "_type": "Expr",
+                    "col_offset": 4,
+                    "end_col_offset": 15,
+                    "end_lineno": 3,
+                    "lineno": 3,
+                    "value": {
+                        "_type": "Call",
+                        "args": [
+                            {
+                                "_type": "Compare",
+                                "col_offset": 11,
+                                "comparators": [
+                                    {
+                                        "_type": "Name",
+                                        "col_offset": 13,
+                                        "ctx": {
+                                            "_type": "Load"
+                                        },
+                                        "end_col_offset": 14,
+                                        "end_lineno": 3,
+                                        "id": "a",
+                                        "lineno": 3
+                                    }
+                                ],
+                                "end_col_offset": 14,
+                                "end_lineno": 3,
+                                "left": {
+                                    "_type": "Name",
+                                    "col_offset": 11,
+                                    "ctx": {
+                                        "_type": "Load"
+                                    },
+                                    "end_col_offset": 12,
+                                    "end_lineno": 3,
+                                    "id": "m",
+                                    "lineno": 3
+                                },
+                                "lineno": 3,
+                                "ops": [
+                                    {
+                                        "_type": "Lt"
+                                    }
+                                ]
+                            }
+                        ],
+                        "col_offset": 4,
+                        "end_col_offset": 15,
+                        "end_lineno": 3,
+                        "func": {
+                            "_type": "Name",
+                            "col_offset": 4,
+                            "ctx": {
+                                "_type": "Load"
+                            },
+                            "end_col_offset": 10,
+                            "end_lineno": 3,
+                            "id": "assume",
+                            "lineno": 3
+                        },
+                        "keywords": [],
+                        "lineno": 3
+                    }
+                }
+            ],
+            "col_offset": 0,
+            "end_col_offset": 15,
+            "end_lineno": 3,
+            "lineno": 1,
+            "orelse": [],
+            "test": {
+                "_type": "Name",
+                "col_offset": 3,
+                "ctx": {
+                    "_type": "Load"
+                },
+                "end_col_offset": 5,
+                "end_lineno": 1,
+                "id": "NT",
+                "lineno": 1
+            }
+        }
+    ],
+    "type_ignores": []
+}
